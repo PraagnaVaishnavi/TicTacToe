@@ -1,0 +1,61 @@
+*{ margin: 0;
+    padding: 0;
+    
+}
+.container{
+  text-align: center;
+}
+.title{
+    margin-top: 50px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title span{
+    color: #26ffcb;
+    padding: 0 15px;
+}
+.reset{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: large;
+    color: #26ffcb;
+    background-color: #1f3540;
+    cursor: pointer;
+    outline: none;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.board {
+    display: grid; /* Use CSS Grid for a proper 3x3 layout */
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    grid-gap: 10px; /* Space between boxes */
+    width: 320px; /* Adjust width for the grid */
+    height: 320px; /* Match height to maintain a square */
+    margin: auto; /* Center the board horizontally */
+    background-color: #0f1b21; /* Optional: Background for board */
+    padding: 5px; /* Optional: Padding inside the board */
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjusted size to fit */
+    width: 100px;  /* Adjusted size to fit */
+    border-radius: 15px;
+    background-color: #1f3540;
+    border: 2px solid #0f1b21;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the content vertically */
+    flex-direction: column; /* Stack the title, board, and reset button */
+}
