@@ -1,4 +1,4 @@
-import Tictactoe from "./components/assets/tictactoe/Tictactoe.jsx";
+import Tictactoe from "./Components/assets/tictactoe/Tictactoe.jsx";
 
 import './App.css';
 function App(){
